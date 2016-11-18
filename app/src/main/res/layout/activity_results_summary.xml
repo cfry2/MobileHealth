@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- propertylisting.xml. -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#81F79F"
+
+>
+
+
+        <ListView android:id="@+id/entryItem"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:background="@drawable/gradient"
+            android:layout_above="@+id/Summary"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+
+            >
+
+        </ListView>
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradient3"
+        android:orientation="vertical"
+        android:id="@+id/Summary"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:padding="5dp">
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Weekly Summary"
+
+        android:id="@+id/summaryTitle"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:textColor="#ffff"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="You have achieved "
+            android:id="@+id/summaryText"
+            android:layout_below="@id/summaryTitle"
+            android:textColor="#ffff"
+            android:paddingTop="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="null"
+            android:id="@+id/metValue"
+            android:layout_below="@id/summaryTitle"
+            android:layout_toRightOf="@id/summaryText"
+            android:textColor="#ffff"
+            android:paddingTop="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" of the 450 MET's required this week"
+            android:id="@+id/summaryTextTwo"
+            android:layout_below="@id/summaryTitle"
+            android:layout_toRightOf="@id/metValue"
+            android:textColor="#ffff"
+            android:paddingTop="10dp"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="null"
+            android:id="@+id/summaryToast"
+            android:layout_below="@id/summaryText"
+            android:paddingTop="20dp"
+            android:textColor="#ffff"
+            android:layout_centerHorizontal="true"
+            />
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

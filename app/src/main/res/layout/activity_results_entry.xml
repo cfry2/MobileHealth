@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/resultsEntryTable"
+    android:layout_weight="1"
+    android:background="#81F79F">
+
+
+    <TableRow
+        android:id="@+id/rowOne"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:hint="Start"
+            android:id="@+id/start1"
+            android:layout_width="match_parent"/>
+        <EditText
+            android:hint="Finish"
+            android:id="@+id/finish1"
+            android:layout_width="match_parent"/>
+        <EditText
+            android:hint="Date"
+            android:id="@+id/date1"
+            android:layout_width="match_parent"
+            />
+        <Spinner
+            android:id="@+id/excerciseType1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </TableRow>
+    <TableRow
+        android:id="@+id/rowTwo">
+
+        <EditText
+            android:hint="Start"
+            android:id="@+id/start2"
+            android:layout_width="match_parent"/>
+        <EditText
+            android:hint="Finish"
+            android:id="@+id/finish2"
+            android:layout_width="match_parent"/>
+        <EditText
+            android:hint="Date"
+            android:id="@+id/date2"
+            android:layout_width="wrap_content"
+            />
+        <Spinner
+            android:id="@+id/excerciseType2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </TableRow>
+    <TableRow
+        android:id="@+id/rowThree">
+
+        <EditText
+            android:hint="Start"
+            android:id="@+id/start3"
+            android:layout_width="match_parent"/>
+        <EditText
+            android:hint="Finish"
+            android:id="@+id/finish3"
+            android:layout_width="match_parent"/>
+        <EditText
+            android:hint="Date"
+            android:id="@+id/date3"
+            android:layout_width="match_parent"
+            />
+        <Spinner
+            android:id="@+id/excerciseType3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </TableRow>
+    <TableRow
+        android:id="@+id/rowFour">
+
+        <EditText
+            android:hint="Start"
+            android:id="@+id/start4"
+            android:layout_width="match_parent"/>
+        <EditText
+            android:hint="Finish"
+            android:id="@+id/finish4"
+            android:layout_width="match_parent"/>
+        <EditText
+            android:hint="Date"
+            android:id="@+id/date4"
+            android:layout_width="match_parent"
+            />
+        <Spinner
+            android:id="@+id/excerciseType4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </TableRow>
+    <TableRow
+        android:id="@+id/rowFive">
+
+        <EditText
+            android:hint="Start"
+            android:id="@+id/start5"
+            android:layout_width="match_parent"/>
+        <EditText
+            android:hint="Finish"
+            android:id="@+id/finish5"
+            android:layout_width="match_parent"/>
+        <EditText
+            android:hint="Date"
+            android:id="@+id/date5"
+            android:layout_width="match_parent"
+            />
+        <Spinner
+            android:id="@+id/excerciseType5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </TableRow>
+</TableLayout>
+
+ <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ android:layout_width="match_parent"
+ android:layout_height="match_parent"
+ android:id="@+id/resultsEntryTableTwo"
+  android:layout_weight="4"
+     android:background="@drawable/gradient">
+
+     <TableRow>
+         >
+         <Button
+             android:text="submit"
+             android:id="@+id/submit"
+             style="@style/button_text"
+             android:background="@drawable/red_button"
+             />
+         <Button
+             android:text="add entry"
+             android:id="@+id/addEntry"
+             style="@style/button_text"
+             android:background="@drawable/red_button"
+             />
+         <Button
+             android:text="remove entry"
+             android:id="@+id/removeEntry"
+             android:layout_width="fill_parent"
+             style="@style/button_text"
+             android:background="@drawable/red_button"/>
+     </TableRow>
+     <TableRow>
+         <Button
+             android:text="reset database"
+             android:id="@+id/resetDB"
+             style="@style/button_text"
+             android:background="@drawable/red_button"/>
+     </TableRow>
+ </TableLayout>
+
+ </LinearLayout>
